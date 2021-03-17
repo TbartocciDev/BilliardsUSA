@@ -16,6 +16,7 @@
 		B4DB0DAE26028CBB003D2C54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4DB0DAC26028CBB003D2C54 /* LaunchScreen.storyboard */; };
 		B4DB0DB926028CBC003D2C54 /* BilliardsUSATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB0DB826028CBC003D2C54 /* BilliardsUSATests.swift */; };
 		B4DB0DC426028CBC003D2C54 /* BilliardsUSAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB0DC326028CBC003D2C54 /* BilliardsUSAUITests.swift */; };
+		B4DB0DD62602919B003D2C54 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB0DD52602919B003D2C54 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B4DB0DBF26028CBC003D2C54 /* BilliardsUSAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BilliardsUSAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DB0DC326028CBC003D2C54 /* BilliardsUSAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BilliardsUSAUITests.swift; sourceTree = "<group>"; };
 		B4DB0DC526028CBC003D2C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4DB0DD52602919B003D2C54 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		B4DB0D9D26028CBB003D2C54 /* BilliardsUSA */ = {
 			isa = PBXGroup;
 			children = (
+				B4DB0DD42602916F003D2C54 /* Map Scene */,
 				B4DB0D9E26028CBB003D2C54 /* AppDelegate.swift */,
 				B4DB0DA026028CBB003D2C54 /* SceneDelegate.swift */,
 				B4DB0DA226028CBB003D2C54 /* ViewController.swift */,
@@ -129,6 +132,14 @@
 				B4DB0DC526028CBC003D2C54 /* Info.plist */,
 			);
 			path = BilliardsUSAUITests;
+			sourceTree = "<group>";
+		};
+		B4DB0DD42602916F003D2C54 /* Map Scene */ = {
+			isa = PBXGroup;
+			children = (
+				B4DB0DD52602919B003D2C54 /* MapViewController.swift */,
+			);
+			path = "Map Scene";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +275,7 @@
 				B4DB0DA926028CBB003D2C54 /* BilliardsUSA.xcdatamodeld in Sources */,
 				B4DB0DA326028CBB003D2C54 /* ViewController.swift in Sources */,
 				B4DB0D9F26028CBB003D2C54 /* AppDelegate.swift in Sources */,
+				B4DB0DD62602919B003D2C54 /* MapViewController.swift in Sources */,
 				B4DB0DA126028CBB003D2C54 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
