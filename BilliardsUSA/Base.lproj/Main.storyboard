@@ -55,10 +55,10 @@
             </objects>
             <point key="canvasLocation" x="97" y="76"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--MapView-->
         <scene sceneID="sH3-pS-Yta">
             <objects>
-                <viewControllerPlaceholder id="ZIq-bB-ATw" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="MapView" id="ZIq-bB-ATw" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="L0x-G0-pAA"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1ds-Be-cKW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
