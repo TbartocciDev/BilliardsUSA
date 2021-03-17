@@ -26,3 +26,13 @@ This very well could end up being some sort of social media for billiards player
   - Show their specs
   - List of accomplishment
   - Bio?
+
+### Progress
+
+- [ ] Map Section
+  - [ ] Location Detail
+- [ ] Learning Section
+  - [ ] Drill Section
+  - [ ] Rules of the games
+- [ ] Creation Zone
+- [ ] Events Sections
