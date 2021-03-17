@@ -19,6 +19,8 @@
 		B4DB0DD62602919B003D2C54 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB0DD52602919B003D2C54 /* MapViewController.swift */; };
 		B4DB0DE12602960C003D2C54 /* MapView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4DB0DE02602960C003D2C54 /* MapView.storyboard */; };
 		B4DB0DEA260297F5003D2C54 /* Events.json in Resources */ = {isa = PBXBuildFile; fileRef = B4DB0DE9260297F5003D2C54 /* Events.json */; };
+		B4DB0DF22602A80A003D2C54 /* PoolHallAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB0DF12602A80A003D2C54 /* PoolHallAnnotation.swift */; };
+		B4DB0DFA2602B2DD003D2C54 /* PoolHallAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB0DF92602B2DD003D2C54 /* PoolHallAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		B4DB0DD52602919B003D2C54 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		B4DB0DE02602960C003D2C54 /* MapView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapView.storyboard; sourceTree = "<group>"; };
 		B4DB0DE9260297F5003D2C54 /* Events.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Events.json; sourceTree = "<group>"; };
+		B4DB0DF12602A80A003D2C54 /* PoolHallAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoolHallAnnotation.swift; sourceTree = "<group>"; };
+		B4DB0DF92602B2DD003D2C54 /* PoolHallAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoolHallAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,8 +146,9 @@
 		B4DB0DD42602916F003D2C54 /* Map Scene */ = {
 			isa = PBXGroup;
 			children = (
-				B4DB0DD52602919B003D2C54 /* MapViewController.swift */,
+				B4DB0DFE2602B2E5003D2C54 /* Pool Hall Annotation */,
 				B4DB0DE02602960C003D2C54 /* MapView.storyboard */,
+				B4DB0DD52602919B003D2C54 /* MapViewController.swift */,
 			);
 			path = "Map Scene";
 			sourceTree = "<group>";
@@ -154,6 +159,15 @@
 				B4DB0DE9260297F5003D2C54 /* Events.json */,
 			);
 			path = "Mock Data";
+			sourceTree = "<group>";
+		};
+		B4DB0DFE2602B2E5003D2C54 /* Pool Hall Annotation */ = {
+			isa = PBXGroup;
+			children = (
+				B4DB0DF12602A80A003D2C54 /* PoolHallAnnotation.swift */,
+				B4DB0DF92602B2DD003D2C54 /* PoolHallAnnotationView.swift */,
+			);
+			path = "Pool Hall Annotation";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +303,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4DB0DA926028CBB003D2C54 /* BilliardsUSA.xcdatamodeld in Sources */,
+				B4DB0DF22602A80A003D2C54 /* PoolHallAnnotation.swift in Sources */,
+				B4DB0DFA2602B2DD003D2C54 /* PoolHallAnnotationView.swift in Sources */,
 				B4DB0DA326028CBB003D2C54 /* ViewController.swift in Sources */,
 				B4DB0D9F26028CBB003D2C54 /* AppDelegate.swift in Sources */,
 				B4DB0DD62602919B003D2C54 /* MapViewController.swift in Sources */,

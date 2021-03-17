@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Map View Controller-->
         <scene sceneID="uGT-VT-adJ">
             <objects>
-                <viewController id="RQD-Xi-5QS" sceneMemberID="viewController">
+                <viewController id="RQD-Xi-5QS" customClass="MapViewController" customModule="BilliardsUSA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pIa-tJ-NgJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -29,6 +29,9 @@
                             <constraint firstItem="d4b-IG-aKH" firstAttribute="top" secondItem="2r0-7S-rkU" secondAttribute="top" id="pXU-gE-pNh"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="d4b-IG-aKH" id="FdF-I3-81k"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HgB-DL-lmg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
