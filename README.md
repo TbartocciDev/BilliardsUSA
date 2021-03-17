@@ -7,7 +7,7 @@ The mission for me creating this project is to inspire and help a new generation
 This very well could end up being some sort of social media for billiards players, however that is not my initial intent. So far I just have a few ideas of an app that I would like the create.
 
 - A map showing local pool halls, or other places to play
- - Will give details of each pool hall
+  - Will give details of each pool hall
    - Price per hour
    - Specials
    - Types of tables: types, sizes
@@ -15,10 +15,10 @@ This very well could end up being some sort of social media for billiards player
    - Ratings: by google
    - Leagues ran thru?
 - A nearby events section
- - Tournaments
+  - Tournaments
 - A learning section
- - Rules of games
- - Drills to practice
- - Tips from the pros
+  - Rules of games
+  - Drills to practice
+  - Tips from the pros
 - The creation zone
- - Create trickshots?
+  - Create trickshots?
