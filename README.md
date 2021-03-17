@@ -22,3 +22,7 @@ This very well could end up being some sort of social media for billiards player
   - Tips from the pros
 - The creation zone
   - Create trickshots?
+- About the pros section
+  - Show their specs
+  - List of accomplishment
+  - Bio?
