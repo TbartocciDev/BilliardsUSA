@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4DB0D9F26028CBB003D2C54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB0D9E26028CBB003D2C54 /* AppDelegate.swift */; };
+		B4DB0DA126028CBB003D2C54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB0DA026028CBB003D2C54 /* SceneDelegate.swift */; };
+		B4DB0DA326028CBB003D2C54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB0DA226028CBB003D2C54 /* ViewController.swift */; };
+		B4DB0DA626028CBB003D2C54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4DB0DA426028CBB003D2C54 /* Main.storyboard */; };
+		B4DB0DA926028CBB003D2C54 /* BilliardsUSA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4DB0DA726028CBB003D2C54 /* BilliardsUSA.xcdatamodeld */; };
+		B4DB0DAB26028CBB003D2C54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4DB0DAA26028CBB003D2C54 /* Assets.xcassets */; };
+		B4DB0DAE26028CBB003D2C54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4DB0DAC26028CBB003D2C54 /* LaunchScreen.storyboard */; };
+		B4DB0DB926028CBC003D2C54 /* BilliardsUSATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB0DB826028CBC003D2C54 /* BilliardsUSATests.swift */; };
+		B4DB0DC426028CBC003D2C54 /* BilliardsUSAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB0DC326028CBC003D2C54 /* BilliardsUSAUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4DB0DB526028CBC003D2C54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4DB0D9326028CBB003D2C54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4DB0D9A26028CBB003D2C54;
+			remoteInfo = BilliardsUSA;
+		};
+		B4DB0DC026028CBC003D2C54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4DB0D9326028CBB003D2C54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4DB0D9A26028CBB003D2C54;
+			remoteInfo = BilliardsUSA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4DB0D9B26028CBB003D2C54 /* BilliardsUSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BilliardsUSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4DB0D9E26028CBB003D2C54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4DB0DA026028CBB003D2C54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B4DB0DA226028CBB003D2C54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B4DB0DA526028CBB003D2C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4DB0DA826028CBB003D2C54 /* BilliardsUSA.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BilliardsUSA.xcdatamodel; sourceTree = "<group>"; };
+		B4DB0DAA26028CBB003D2C54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4DB0DAD26028CBB003D2C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4DB0DAF26028CBB003D2C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4DB0DB426028CBC003D2C54 /* BilliardsUSATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BilliardsUSATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4DB0DB826028CBC003D2C54 /* BilliardsUSATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BilliardsUSATests.swift; sourceTree = "<group>"; };
+		B4DB0DBA26028CBC003D2C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4DB0DBF26028CBC003D2C54 /* BilliardsUSAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BilliardsUSAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4DB0DC326028CBC003D2C54 /* BilliardsUSAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BilliardsUSAUITests.swift; sourceTree = "<group>"; };
+		B4DB0DC526028CBC003D2C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4DB0D9826028CBB003D2C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4DB0DB126028CBC003D2C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4DB0DBC26028CBC003D2C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4DB0D9226028CBB003D2C54 = {
+			isa = PBXGroup;
+			children = (
+				B4DB0D9D26028CBB003D2C54 /* BilliardsUSA */,
+				B4DB0DB726028CBC003D2C54 /* BilliardsUSATests */,
+				B4DB0DC226028CBC003D2C54 /* BilliardsUSAUITests */,
+				B4DB0D9C26028CBB003D2C54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4DB0D9C26028CBB003D2C54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4DB0D9B26028CBB003D2C54 /* BilliardsUSA.app */,
+				B4DB0DB426028CBC003D2C54 /* BilliardsUSATests.xctest */,
+				B4DB0DBF26028CBC003D2C54 /* BilliardsUSAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4DB0D9D26028CBB003D2C54 /* BilliardsUSA */ = {
+			isa = PBXGroup;
+			children = (
+				B4DB0D9E26028CBB003D2C54 /* AppDelegate.swift */,
+				B4DB0DA026028CBB003D2C54 /* SceneDelegate.swift */,
+				B4DB0DA226028CBB003D2C54 /* ViewController.swift */,
+				B4DB0DA426028CBB003D2C54 /* Main.storyboard */,
+				B4DB0DAA26028CBB003D2C54 /* Assets.xcassets */,
+				B4DB0DAC26028CBB003D2C54 /* LaunchScreen.storyboard */,
+				B4DB0DAF26028CBB003D2C54 /* Info.plist */,
+				B4DB0DA726028CBB003D2C54 /* BilliardsUSA.xcdatamodeld */,
+			);
+			path = BilliardsUSA;
+			sourceTree = "<group>";
+		};
+		B4DB0DB726028CBC003D2C54 /* BilliardsUSATests */ = {
+			isa = PBXGroup;
+			children = (
+				B4DB0DB826028CBC003D2C54 /* BilliardsUSATests.swift */,
+				B4DB0DBA26028CBC003D2C54 /* Info.plist */,
+			);
+			path = BilliardsUSATests;
+			sourceTree = "<group>";
+		};
+		B4DB0DC226028CBC003D2C54 /* BilliardsUSAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4DB0DC326028CBC003D2C54 /* BilliardsUSAUITests.swift */,
+				B4DB0DC526028CBC003D2C54 /* Info.plist */,
+			);
+			path = BilliardsUSAUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4DB0D9A26028CBB003D2C54 /* BilliardsUSA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4DB0DC826028CBC003D2C54 /* Build configuration list for PBXNativeTarget "BilliardsUSA" */;
+			buildPhases = (
+				B4DB0D9726028CBB003D2C54 /* Sources */,
+				B4DB0D9826028CBB003D2C54 /* Frameworks */,
+				B4DB0D9926028CBB003D2C54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BilliardsUSA;
+			productName = BilliardsUSA;
+			productReference = B4DB0D9B26028CBB003D2C54 /* BilliardsUSA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4DB0DB326028CBC003D2C54 /* BilliardsUSATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4DB0DCB26028CBC003D2C54 /* Build configuration list for PBXNativeTarget "BilliardsUSATests" */;
+			buildPhases = (
+				B4DB0DB026028CBC003D2C54 /* Sources */,
+				B4DB0DB126028CBC003D2C54 /* Frameworks */,
+				B4DB0DB226028CBC003D2C54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4DB0DB626028CBC003D2C54 /* PBXTargetDependency */,
+			);
+			name = BilliardsUSATests;
+			productName = BilliardsUSATests;
+			productReference = B4DB0DB426028CBC003D2C54 /* BilliardsUSATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4DB0DBE26028CBC003D2C54 /* BilliardsUSAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4DB0DCE26028CBC003D2C54 /* Build configuration list for PBXNativeTarget "BilliardsUSAUITests" */;
+			buildPhases = (
+				B4DB0DBB26028CBC003D2C54 /* Sources */,
+				B4DB0DBC26028CBC003D2C54 /* Frameworks */,
+				B4DB0DBD26028CBC003D2C54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4DB0DC126028CBC003D2C54 /* PBXTargetDependency */,
+			);
+			name = BilliardsUSAUITests;
+			productName = BilliardsUSAUITests;
+			productReference = B4DB0DBF26028CBC003D2C54 /* BilliardsUSAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4DB0D9326028CBB003D2C54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B4DB0D9A26028CBB003D2C54 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					B4DB0DB326028CBC003D2C54 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = B4DB0D9A26028CBB003D2C54;
+					};
+					B4DB0DBE26028CBC003D2C54 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = B4DB0D9A26028CBB003D2C54;
+					};
+				};
+			};
+			buildConfigurationList = B4DB0D9626028CBB003D2C54 /* Build configuration list for PBXProject "BilliardsUSA" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4DB0D9226028CBB003D2C54;
+			productRefGroup = B4DB0D9C26028CBB003D2C54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4DB0D9A26028CBB003D2C54 /* BilliardsUSA */,
+				B4DB0DB326028CBC003D2C54 /* BilliardsUSATests */,
+				B4DB0DBE26028CBC003D2C54 /* BilliardsUSAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4DB0D9926028CBB003D2C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4DB0DAE26028CBB003D2C54 /* LaunchScreen.storyboard in Resources */,
+				B4DB0DAB26028CBB003D2C54 /* Assets.xcassets in Resources */,
+				B4DB0DA626028CBB003D2C54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4DB0DB226028CBC003D2C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4DB0DBD26028CBC003D2C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4DB0D9726028CBB003D2C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4DB0DA926028CBB003D2C54 /* BilliardsUSA.xcdatamodeld in Sources */,
+				B4DB0DA326028CBB003D2C54 /* ViewController.swift in Sources */,
+				B4DB0D9F26028CBB003D2C54 /* AppDelegate.swift in Sources */,
+				B4DB0DA126028CBB003D2C54 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4DB0DB026028CBC003D2C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4DB0DB926028CBC003D2C54 /* BilliardsUSATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4DB0DBB26028CBC003D2C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4DB0DC426028CBC003D2C54 /* BilliardsUSAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4DB0DB626028CBC003D2C54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4DB0D9A26028CBB003D2C54 /* BilliardsUSA */;
+			targetProxy = B4DB0DB526028CBC003D2C54 /* PBXContainerItemProxy */;
+		};
+		B4DB0DC126028CBC003D2C54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4DB0D9A26028CBB003D2C54 /* BilliardsUSA */;
+			targetProxy = B4DB0DC026028CBC003D2C54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4DB0DA426028CBB003D2C54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4DB0DA526028CBB003D2C54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4DB0DAC26028CBB003D2C54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4DB0DAD26028CBB003D2C54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4DB0DC626028CBC003D2C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4DB0DC726028CBC003D2C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4DB0DC926028CBC003D2C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BilliardsUSA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tommybartocci.BilliardsUSA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4DB0DCA26028CBC003D2C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BilliardsUSA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tommybartocci.BilliardsUSA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B4DB0DCC26028CBC003D2C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BilliardsUSATests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tommybartocci.BilliardsUSATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BilliardsUSA.app/BilliardsUSA";
+			};
+			name = Debug;
+		};
+		B4DB0DCD26028CBC003D2C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BilliardsUSATests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tommybartocci.BilliardsUSATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BilliardsUSA.app/BilliardsUSA";
+			};
+			name = Release;
+		};
+		B4DB0DCF26028CBC003D2C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BilliardsUSAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tommybartocci.BilliardsUSAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BilliardsUSA;
+			};
+			name = Debug;
+		};
+		B4DB0DD026028CBC003D2C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BilliardsUSAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tommybartocci.BilliardsUSAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BilliardsUSA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4DB0D9626028CBB003D2C54 /* Build configuration list for PBXProject "BilliardsUSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4DB0DC626028CBC003D2C54 /* Debug */,
+				B4DB0DC726028CBC003D2C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4DB0DC826028CBC003D2C54 /* Build configuration list for PBXNativeTarget "BilliardsUSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4DB0DC926028CBC003D2C54 /* Debug */,
+				B4DB0DCA26028CBC003D2C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4DB0DCB26028CBC003D2C54 /* Build configuration list for PBXNativeTarget "BilliardsUSATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4DB0DCC26028CBC003D2C54 /* Debug */,
+				B4DB0DCD26028CBC003D2C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4DB0DCE26028CBC003D2C54 /* Build configuration list for PBXNativeTarget "BilliardsUSAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4DB0DCF26028CBC003D2C54 /* Debug */,
+				B4DB0DD026028CBC003D2C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B4DB0DA726028CBB003D2C54 /* BilliardsUSA.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B4DB0DA826028CBB003D2C54 /* BilliardsUSA.xcdatamodel */,
+			);
+			currentVersion = B4DB0DA826028CBB003D2C54 /* BilliardsUSA.xcdatamodel */;
+			path = BilliardsUSA.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B4DB0D9326028CBB003D2C54 /* Project object */;
+}
