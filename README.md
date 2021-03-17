@@ -8,12 +8,12 @@ This very well could end up being some sort of social media for billiards player
 
 - A map showing local pool halls, or other places to play
   - Will give details of each pool hall
-   - Price per hour
-   - Specials
-   - Types of tables: types, sizes
-   - Hours of operation
-   - Ratings: by google
-   - Leagues ran thru?
+    - Price per hour
+    - Specials
+    - Types of tables: types, sizes
+    - Hours of operation
+    - Ratings: by google
+    - Leagues ran thru?
 - A nearby events section
   - Tournaments
 - A learning section
