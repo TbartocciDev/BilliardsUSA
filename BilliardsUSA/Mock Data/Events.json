@@ -1,0 +1,99 @@
+//
+//  Events.json
+//  BilliardsUSA
+//
+//  Created by Tommy Bartocci on 3/17/21.
+//
+
+import Foundation
+
+{
+    "Search": [
+        {
+            "Name" : "Mock Event Name 1",
+            "Organizer": {
+                "FullName": "William Williams",
+                "Email": "william23williams@yahoo.com",
+                "Phone": "908-809-5797"
+            },
+            "Game": "10 Ball",
+            "Table": "9 ft",
+            "Prize": "Meucci Pool Cue 21st Century ME2103",
+            "Type": "Qualifier",
+            "Buyin": "$60 cash only",
+            "RegisterType": "Walk-ins or pre-register",
+            "CardAcc": false,
+            "NumPartic": "typically 11 players",
+            "SkillLvl": "Unspecified",
+            "Handicap": "none",
+            "Link": "https://www.breakawaynj.com",
+            "RuleSet": "APA rules",
+            "Notes": "This is not a very serious tournament. People come to have a good time, have a beer etc."
+        },
+        {
+            "Name" : "Mock Event Name 2",
+            "Organizer": {
+                "FullName": "William Williams",
+                "Email": "william23williams@yahoo.com",
+                "Phone": "908-809-5797"
+            },
+            "Game": "10 Ball",
+            "Table": "9 ft",
+            "Prize": "Meucci Pool Cue 21st Century ME2103",
+            "Type": "Qualifier",
+            "Buyin": "$60 cash only",
+            "RegisterType": "Walk-ins or pre-register",
+            "CardAcc": false,
+            "NumPartic": "typically 11 players",
+            "SkillLvl": "Unspecified",
+            "Handicap": "none",
+            "Link": "https://www.breakawaynj.com",
+            "RuleSet": "APA rules",
+            "Notes": "This is not a very serious tournament. People come to have a good time, have a beer etc."
+        },
+        {
+            "Name" : "Mock Event Name 3",
+            "Organizer": {
+                "FullName": "William Williams",
+                "Email": "william23williams@yahoo.com",
+                "Phone": "908-809-5797"
+            },
+            "Game": "10 Ball",
+            "Table": "9 ft",
+            "Prize": "Meucci Pool Cue 21st Century ME2103",
+            "Type": "Qualifier",
+            "Buyin": "$60 cash only",
+            "RegisterType": "Walk-ins or pre-register",
+            "CardAcc": false,
+            "NumPartic": "typically 11 players",
+            "SkillLvl": "Unspecified",
+            "Handicap": "none",
+            "Link": "https://www.breakawaynj.com",
+            "RuleSet": "APA rules",
+            "Notes": "This is not a very serious tournament. People come to have a good time, have a beer etc."
+        },
+        {
+            "Name" : "Mock Event Name 4",
+            "Organizer": {
+                "FullName": "William Williams",
+                "Email": "william23williams@yahoo.com",
+                "Phone": "908-809-5797"
+            },
+            "Game": "10 Ball",
+            "Table": "9 ft",
+            "Prize": "Meucci Pool Cue 21st Century ME2103",
+            "Type": "Qualifier",
+            "Buyin": "$60 cash only",
+            "RegisterType": "Walk-ins or pre-register",
+            "CardAcc": false,
+            "NumPartic": "typically 11 players",
+            "SkillLvl": "Unspecified",
+            "Handicap": "none",
+            "Link": "https://www.breakawaynj.com",
+            "RuleSet": "APA rules",
+            "Notes": "This is not a very serious tournament. People come to have a good time, have a beer etc."
+        }
+    ],
+    "totalResults": "5",
+    "Response": "True"
+}
