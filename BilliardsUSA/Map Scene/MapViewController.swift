@@ -7,6 +7,8 @@ class MapViewController: UIViewController {
     
     let locationManager = CustomLocationManager()
     
+    var directionsArray: [MKDirections] = []
+    
     let centerLocation = CLLocationCoordinate2D(latitude: 40.572093, longitude: -74.549652)
     let userLocationZoomInMeters: Double = 400
     
@@ -18,6 +20,65 @@ class MapViewController: UIViewController {
         
         checkLocationServices()
         
+    }
+    
+    @IBAction func directionsButtonPressed(_ sender: Any) {
+        getDirections()
+    }
+    
+    
+    func getDirections() {
+        guard let location = locationManager.location?.coordinate else {
+            print("Could nto find user location for directions.")
+            return }
+        
+        let request = createDirectionsRequest(from: location)
+        let directions = MKDirections(request: request)
+        resetMapView(with: directions)
+        
+        directions.calculate { [unowned self] (response, error) in
+            
+            guard let response = response else {
+                print("Error finding directions: \(error!)")
+                return
+            }
+            
+            for route in response.routes {
+                self.mapView.addOverlay(route.polyline)
+                let extraDirectionPaddings: Double = 10000
+                let halfExtraDirectionPaddings: Double = 5000
+                let newMapRect = MKMapRect(x: route.polyline.boundingMapRect.minX - halfExtraDirectionPaddings, y: route.polyline.boundingMapRect.minY - halfExtraDirectionPaddings, width: (route.polyline.boundingMapRect.width + extraDirectionPaddings), height: (route.polyline.boundingMapRect.height + extraDirectionPaddings))
+                self.mapView.setVisibleMapRect(newMapRect, animated: true)
+            }
+            
+        }
+        
+    }
+    
+    func getPoolHallLocation() -> CLLocationCoordinate2D{
+        
+        return CLLocationCoordinate2D(latitude: 40.6568799738109, longitude: -74.40087854862213)
+    }
+    
+    func createDirectionsRequest(from coordinate: CLLocationCoordinate2D) -> MKDirections.Request{
+        let startingLocation = MKPlacemark(coordinate: coordinate)
+        let destinationLocation = MKPlacemark(coordinate: getPoolHallLocation())
+        
+        let request = MKDirections.Request()
+        request.source = MKMapItem(placemark: startingLocation)
+        request.destination = MKMapItem(placemark: destinationLocation)
+        request.transportType = .automobile
+//        request.requestsAlternateRoutes = true
+        
+        return request
+    }
+    
+    func resetMapView(with newDirections: MKDirections) {
+        mapView.removeOverlays(mapView.overlays)
+        directionsArray.append(newDirections)
+        let _ = directionsArray.map {
+            $0.cancel()
+        }
     }
     
     
@@ -128,9 +189,13 @@ extension MapViewController: CLLocationManagerDelegate {
         }
     }
     
+    
+    //              follows user location
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         locationManager.anyLocationDelivered = true
-        guard let location = locations.last else { return }
+        guard let location = locations.last else {
+            print("Could not find user location for updating.")
+            return }
         let center = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
         let region = MKCoordinateRegion(center: center, latitudinalMeters: userLocationZoomInMeters, longitudinalMeters: userLocationZoomInMeters)
         mapView.setRegion(region, animated: true)

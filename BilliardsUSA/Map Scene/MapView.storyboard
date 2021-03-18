@@ -19,12 +19,26 @@
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="d4b-IG-aKH">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                             </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLd-q3-NBv">
+                                <rect key="frame" x="294" y="742" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.2627145971" green="0.96886621340000001" blue="0.2397926531" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="kMp-Qb-lrM"/>
+                                    <constraint firstAttribute="width" constant="100" id="uzC-sN-WBM"/>
+                                </constraints>
+                                <state key="normal" title="Directions"/>
+                                <connections>
+                                    <action selector="directionsButtonPressed:" destination="RQD-Xi-5QS" eventType="touchUpInside" id="hUG-A2-Mw5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="2r0-7S-rkU"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="2r0-7S-rkU" firstAttribute="bottom" secondItem="d4b-IG-aKH" secondAttribute="bottom" id="DD4-dn-Lu2"/>
+                            <constraint firstItem="2r0-7S-rkU" firstAttribute="bottom" secondItem="aLd-q3-NBv" secondAttribute="bottom" constant="20" id="Jsa-Fd-XrC"/>
                             <constraint firstItem="2r0-7S-rkU" firstAttribute="trailing" secondItem="d4b-IG-aKH" secondAttribute="trailing" id="LG1-Hw-a1z"/>
+                            <constraint firstItem="2r0-7S-rkU" firstAttribute="trailing" secondItem="aLd-q3-NBv" secondAttribute="trailing" constant="20" id="iBG-Pl-nyO"/>
                             <constraint firstItem="d4b-IG-aKH" firstAttribute="leading" secondItem="2r0-7S-rkU" secondAttribute="leading" id="nwH-MQ-9UB"/>
                             <constraint firstItem="d4b-IG-aKH" firstAttribute="top" secondItem="2r0-7S-rkU" secondAttribute="top" id="pXU-gE-pNh"/>
                         </constraints>
