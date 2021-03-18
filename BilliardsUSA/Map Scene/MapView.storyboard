@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                             </mapView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLd-q3-NBv">
-                                <rect key="frame" x="294" y="742" width="100" height="100"/>
+                                <rect key="frame" x="294" y="64" width="100" height="100"/>
                                 <color key="backgroundColor" red="0.2627145971" green="0.96886621340000001" blue="0.2397926531" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="kMp-Qb-lrM"/>
@@ -31,19 +31,36 @@
                                     <action selector="directionsButtonPressed:" destination="RQD-Xi-5QS" eventType="touchUpInside" id="hUG-A2-Mw5"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oH2-zM-V1f">
+                                <rect key="frame" x="10" y="813" width="75" height="39"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="ZdM-aa-pgw"/>
+                                    <constraint firstAttribute="width" constant="75" id="nxN-dQ-IYI"/>
+                                </constraints>
+                                <state key="normal" title="Follow me">
+                                    <color key="titleColor" red="0.16992783489999999" green="0.62667754200000003" blue="0.15510156959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="followMeButtonPressed:" destination="RQD-Xi-5QS" eventType="touchUpInside" id="Wzi-ph-s0p"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="2r0-7S-rkU"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="2r0-7S-rkU" firstAttribute="bottom" secondItem="oH2-zM-V1f" secondAttribute="bottom" constant="10" id="CmZ-vW-vaI"/>
                             <constraint firstItem="2r0-7S-rkU" firstAttribute="bottom" secondItem="d4b-IG-aKH" secondAttribute="bottom" id="DD4-dn-Lu2"/>
-                            <constraint firstItem="2r0-7S-rkU" firstAttribute="bottom" secondItem="aLd-q3-NBv" secondAttribute="bottom" constant="20" id="Jsa-Fd-XrC"/>
                             <constraint firstItem="2r0-7S-rkU" firstAttribute="trailing" secondItem="d4b-IG-aKH" secondAttribute="trailing" id="LG1-Hw-a1z"/>
-                            <constraint firstItem="2r0-7S-rkU" firstAttribute="trailing" secondItem="aLd-q3-NBv" secondAttribute="trailing" constant="20" id="iBG-Pl-nyO"/>
+                            <constraint firstItem="2r0-7S-rkU" firstAttribute="trailing" secondItem="aLd-q3-NBv" secondAttribute="trailing" constant="20" id="e0A-hk-Jlc"/>
+                            <constraint firstItem="oH2-zM-V1f" firstAttribute="leading" secondItem="2r0-7S-rkU" secondAttribute="leading" constant="10" id="kpx-x9-3Nm"/>
                             <constraint firstItem="d4b-IG-aKH" firstAttribute="leading" secondItem="2r0-7S-rkU" secondAttribute="leading" id="nwH-MQ-9UB"/>
                             <constraint firstItem="d4b-IG-aKH" firstAttribute="top" secondItem="2r0-7S-rkU" secondAttribute="top" id="pXU-gE-pNh"/>
+                            <constraint firstItem="aLd-q3-NBv" firstAttribute="top" secondItem="2r0-7S-rkU" secondAttribute="top" constant="20" id="pbZ-Zt-PT2"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="followMeBtn" destination="oH2-zM-V1f" id="J3N-D2-ZYw"/>
                         <outlet property="mapView" destination="d4b-IG-aKH" id="FdF-I3-81k"/>
                     </connections>
                 </viewController>

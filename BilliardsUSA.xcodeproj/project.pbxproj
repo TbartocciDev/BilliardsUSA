@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B4B1C81F2603CE44000BDE62 /* CustomLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B1C81E2603CE44000BDE62 /* CustomLocationManager.swift */; };
+		B4B1C8242603E58D000BDE62 /* CustomTapGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B1C8232603E58D000BDE62 /* CustomTapGesture.swift */; };
 		B4DB0D9F26028CBB003D2C54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB0D9E26028CBB003D2C54 /* AppDelegate.swift */; };
 		B4DB0DA126028CBB003D2C54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB0DA026028CBB003D2C54 /* SceneDelegate.swift */; };
 		B4DB0DA326028CBB003D2C54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB0DA226028CBB003D2C54 /* ViewController.swift */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		B4B1C81E2603CE44000BDE62 /* CustomLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLocationManager.swift; sourceTree = "<group>"; };
+		B4B1C8232603E58D000BDE62 /* CustomTapGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTapGesture.swift; sourceTree = "<group>"; };
 		B4DB0D9B26028CBB003D2C54 /* BilliardsUSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BilliardsUSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DB0D9E26028CBB003D2C54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4DB0DA026028CBB003D2C54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 				B4DB0DF12602A80A003D2C54 /* PoolHallAnnotation.swift */,
 				B4DB0DF92602B2DD003D2C54 /* PoolHallAnnotationView.swift */,
 				B4B1C81E2603CE44000BDE62 /* CustomLocationManager.swift */,
+				B4B1C8232603E58D000BDE62 /* CustomTapGesture.swift */,
 			);
 			path = "Pool Hall Annotation";
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				B4DB0DA926028CBB003D2C54 /* BilliardsUSA.xcdatamodeld in Sources */,
 				B4DB0DF22602A80A003D2C54 /* PoolHallAnnotation.swift in Sources */,
 				B4DB0DFA2602B2DD003D2C54 /* PoolHallAnnotationView.swift in Sources */,
+				B4B1C8242603E58D000BDE62 /* CustomTapGesture.swift in Sources */,
 				B4DB0DA326028CBB003D2C54 /* ViewController.swift in Sources */,
 				B4DB0D9F26028CBB003D2C54 /* AppDelegate.swift in Sources */,
 				B4B1C81F2603CE44000BDE62 /* CustomLocationManager.swift in Sources */,

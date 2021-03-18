@@ -4,8 +4,10 @@ import CoreLocation
 
 class MapViewController: UIViewController {
     @IBOutlet weak var mapView: MKMapView!
+    @IBOutlet weak var followMeBtn: UIButton!
     
     let locationManager = CustomLocationManager()
+    var isFollowingUser: Bool = true
     
     var directionsArray: [MKDirections] = []
     
@@ -20,10 +22,17 @@ class MapViewController: UIViewController {
         
         checkLocationServices()
         
+        stopFollowingUser()
+        
     }
     
     @IBAction func directionsButtonPressed(_ sender: Any) {
         getDirections()
+    }
+    @IBAction func followMeButtonPressed(_ sender: Any) {
+        isFollowingUser = true
+        centerViewOnUserLocation()
+        followMeBtn.isHidden = true
     }
     
     
@@ -193,12 +202,29 @@ extension MapViewController: CLLocationManagerDelegate {
     //              follows user location
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         locationManager.anyLocationDelivered = true
-        guard let location = locations.last else {
-            print("Could not find user location for updating.")
-            return }
-        let center = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
-        let region = MKCoordinateRegion(center: center, latitudinalMeters: userLocationZoomInMeters, longitudinalMeters: userLocationZoomInMeters)
-        mapView.setRegion(region, animated: true)
+        if isFollowingUser == true {
+            guard let location = locations.last else {
+                print("Could not find user location for updating.")
+                return }
+            let center = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
+            let region = MKCoordinateRegion(center: center, latitudinalMeters: userLocationZoomInMeters, longitudinalMeters: userLocationZoomInMeters)
+            mapView.setRegion(region, animated: true)
+            followMeBtn.isHidden = true
+        } else {
+            followMeBtn.isHidden = false
+        }
+    }
+    
+    func stopFollowingUser() {
+        let tapMapGesture = unfollowTapGestureRecognizer(target: nil, action: nil)
+        tapMapGesture.touchesBeganCallback = {
+            _, _ in
+            self.isFollowingUser = false
+            print("not following user")
+            self.followMeBtn.isHidden = false
+            
+        }
+        mapView.addGestureRecognizer(tapMapGesture)
     }
     
     func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
