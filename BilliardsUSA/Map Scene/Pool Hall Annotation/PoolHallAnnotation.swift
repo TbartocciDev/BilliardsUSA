@@ -8,6 +8,7 @@
 import UIKit
 import MapKit
 import Contacts
+import CoreLocation
 
 class PoolHallAnnotation: NSObject, MKAnnotation {
     let title: String?
