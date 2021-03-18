@@ -5,6 +5,7 @@ import CoreLocation
 class MapViewController: UIViewController {
     @IBOutlet weak var mapView: MKMapView!
     
+    let locationManager = CLLocationManager()
     
     let centerLocation = CLLocationCoordinate2D(latitude: 40.572093, longitude: -74.549652)
     
@@ -17,6 +18,8 @@ class MapViewController: UIViewController {
         mapView.zoomToUserLocation(centerLocation)
         mapView.mapType = .hybrid
         mapView.addAnnotation(grammasHouse)
+        
+        checkLocationServices()
         
     }
     
@@ -85,4 +88,54 @@ extension MKMapView {
         self.setRegion(centerRegion, animated: true)
     }
     
+}
+
+extension MapViewController: CLLocationManagerDelegate {
+    func checkLocationServices() {
+        if CLLocationManager.locationServicesEnabled() {
+            setUpLocationManager()
+            checkLocationAuthorization()
+        } else {
+            //tell the user to turn on location servics
+            
+        }
+    }
+    
+    func setUpLocationManager() {
+        locationManager.delegate = self
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        
+    }
+    
+    func checkLocationAuthorization() {
+        switch locationManager.authorizationStatus {
+
+        case .notDetermined:
+            locationManager.requestWhenInUseAuthorization()
+            print("Authorization: .notDetermined")
+            
+        case .restricted:
+            print("Authorization: .restricted")
+            
+        case .denied:
+            print("Authorization: .denied")
+            
+        case .authorizedAlways:
+            print("Authorization: .authorizedAlways")
+            
+        case .authorizedWhenInUse:
+            print("Authorization: .authorizedWhenInUse")
+            
+        @unknown default:
+            break
+        }
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        
+    }
+    
+    func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
+        
+    }
 }

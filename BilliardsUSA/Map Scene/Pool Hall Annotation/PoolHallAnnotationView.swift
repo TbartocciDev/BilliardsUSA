@@ -6,10 +6,11 @@
 //
 
 import UIKit
+import MapKit
 
 class PoolHallAnnotationView: MKAnnotationView {
-    let title: String?
-    let address: String?
+    let title: String = ""
+    let address: String = ""
     
 
 }
