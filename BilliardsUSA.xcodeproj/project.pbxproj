@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		B4B1C81F2603CE44000BDE62 /* CustomLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B1C81E2603CE44000BDE62 /* CustomLocationManager.swift */; };
 		B4B1C8242603E58D000BDE62 /* CustomTapGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B1C8232603E58D000BDE62 /* CustomTapGesture.swift */; };
+		B4B1C82926040D93000BDE62 /* TripInfoViewCardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B1C82826040D93000BDE62 /* TripInfoViewCardController.swift */; };
+		B4B1C82F26040DD1000BDE62 /* TripInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4B1C82E26040DD1000BDE62 /* TripInfoView.xib */; };
 		B4DB0D9F26028CBB003D2C54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB0D9E26028CBB003D2C54 /* AppDelegate.swift */; };
 		B4DB0DA126028CBB003D2C54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB0DA026028CBB003D2C54 /* SceneDelegate.swift */; };
 		B4DB0DA326028CBB003D2C54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB0DA226028CBB003D2C54 /* ViewController.swift */; };
@@ -45,6 +47,8 @@
 /* Begin PBXFileReference section */
 		B4B1C81E2603CE44000BDE62 /* CustomLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLocationManager.swift; sourceTree = "<group>"; };
 		B4B1C8232603E58D000BDE62 /* CustomTapGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTapGesture.swift; sourceTree = "<group>"; };
+		B4B1C82826040D93000BDE62 /* TripInfoViewCardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripInfoViewCardController.swift; sourceTree = "<group>"; };
+		B4B1C82E26040DD1000BDE62 /* TripInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TripInfoView.xib; sourceTree = "<group>"; };
 		B4DB0D9B26028CBB003D2C54 /* BilliardsUSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BilliardsUSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DB0D9E26028CBB003D2C54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4DB0DA026028CBB003D2C54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +96,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B44F814A260417BA0074EAF0 /* DirectionTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DirectionTableViewCell;
+			sourceTree = "<group>";
+		};
+		B4B1C82D26040DBA000BDE62 /* TripInfo */ = {
+			isa = PBXGroup;
+			children = (
+				B44F814A260417BA0074EAF0 /* DirectionTableViewCell */,
+				B4B1C82826040D93000BDE62 /* TripInfoViewCardController.swift */,
+				B4B1C82E26040DD1000BDE62 /* TripInfoView.xib */,
+			);
+			path = TripInfo;
+			sourceTree = "<group>";
+		};
 		B4DB0D9226028CBB003D2C54 = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +171,7 @@
 		B4DB0DD42602916F003D2C54 /* Map Scene */ = {
 			isa = PBXGroup;
 			children = (
+				B4B1C82D26040DBA000BDE62 /* TripInfo */,
 				B4DB0DFE2602B2E5003D2C54 /* Pool Hall Annotation */,
 				B4DB0DE02602960C003D2C54 /* MapView.storyboard */,
 				B4DB0DD52602919B003D2C54 /* MapViewController.swift */,
@@ -282,6 +304,7 @@
 				B4DB0DAE26028CBB003D2C54 /* LaunchScreen.storyboard in Resources */,
 				B4DB0DAB26028CBB003D2C54 /* Assets.xcassets in Resources */,
 				B4DB0DEA260297F5003D2C54 /* Events.json in Resources */,
+				B4B1C82F26040DD1000BDE62 /* TripInfoView.xib in Resources */,
 				B4DB0DE12602960C003D2C54 /* MapView.storyboard in Resources */,
 				B4DB0DA626028CBB003D2C54 /* Main.storyboard in Resources */,
 			);
@@ -309,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4DB0DA926028CBB003D2C54 /* BilliardsUSA.xcdatamodeld in Sources */,
+				B4B1C82926040D93000BDE62 /* TripInfoViewCardController.swift in Sources */,
 				B4DB0DF22602A80A003D2C54 /* PoolHallAnnotation.swift in Sources */,
 				B4DB0DFA2602B2DD003D2C54 /* PoolHallAnnotationView.swift in Sources */,
 				B4B1C8242603E58D000BDE62 /* CustomTapGesture.swift in Sources */,

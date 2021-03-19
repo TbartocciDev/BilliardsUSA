@@ -7,7 +7,7 @@
 
 import UIKit
 
-class unfollowTapGestureRecognizer: UIGestureRecognizer {
+class UnfollowTapGestureRecognizer: UIGestureRecognizer {
     var touchesBeganCallback: ((Set<UITouch>, UIEvent) -> Void)?
 
         override init(target: Any?, action: Selector?) {
