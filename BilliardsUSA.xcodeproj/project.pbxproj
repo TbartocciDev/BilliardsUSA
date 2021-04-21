@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B448DA4C2630B462006C290D /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B448DA4B2630B462006C290D /* Home.storyboard */; };
+		B448DA512630B47D006C290D /* Video.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B448DA502630B47D006C290D /* Video.storyboard */; };
+		B448DA562630B483006C290D /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B448DA552630B483006C290D /* Account.storyboard */; };
+		B448DA5B2630B4AE006C290D /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B448DA5A2630B4AE006C290D /* AccountViewController.swift */; };
+		B448DA602630B4E3006C290D /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B448DA5F2630B4E3006C290D /* VideoViewController.swift */; };
+		B448DA652630B4FA006C290D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B448DA642630B4FA006C290D /* HomeViewController.swift */; };
+		B448DA6A2630B615006C290D /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B448DA692630B615006C290D /* Map.storyboard */; };
+		B448DA6F2630C476006C290D /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B448DA6E2630C476006C290D /* ImageCollectionViewCell.swift */; };
 		B4B1C81F2603CE44000BDE62 /* CustomLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B1C81E2603CE44000BDE62 /* CustomLocationManager.swift */; };
 		B4B1C8242603E58D000BDE62 /* CustomTapGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B1C8232603E58D000BDE62 /* CustomTapGesture.swift */; };
 		B4B1C82926040D93000BDE62 /* TripInfoViewCardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B1C82826040D93000BDE62 /* TripInfoViewCardController.swift */; };
@@ -45,6 +53,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B448DA4B2630B462006C290D /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		B448DA502630B47D006C290D /* Video.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Video.storyboard; sourceTree = "<group>"; };
+		B448DA552630B483006C290D /* Account.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Account.storyboard; sourceTree = "<group>"; };
+		B448DA5A2630B4AE006C290D /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		B448DA5F2630B4E3006C290D /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		B448DA642630B4FA006C290D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B448DA692630B615006C290D /* Map.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
+		B448DA6E2630C476006C290D /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		B4B1C81E2603CE44000BDE62 /* CustomLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLocationManager.swift; sourceTree = "<group>"; };
 		B4B1C8232603E58D000BDE62 /* CustomTapGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTapGesture.swift; sourceTree = "<group>"; };
 		B4B1C82826040D93000BDE62 /* TripInfoViewCardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripInfoViewCardController.swift; sourceTree = "<group>"; };
@@ -96,6 +112,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B448DA482630B425006C290D /* Home Scene */ = {
+			isa = PBXGroup;
+			children = (
+				B448DA4B2630B462006C290D /* Home.storyboard */,
+				B448DA642630B4FA006C290D /* HomeViewController.swift */,
+				B448DA6E2630C476006C290D /* ImageCollectionViewCell.swift */,
+			);
+			path = "Home Scene";
+			sourceTree = "<group>";
+		};
+		B448DA492630B434006C290D /* Video Scene */ = {
+			isa = PBXGroup;
+			children = (
+				B448DA502630B47D006C290D /* Video.storyboard */,
+				B448DA5F2630B4E3006C290D /* VideoViewController.swift */,
+			);
+			path = "Video Scene";
+			sourceTree = "<group>";
+		};
+		B448DA4A2630B448006C290D /* Account Scene */ = {
+			isa = PBXGroup;
+			children = (
+				B448DA552630B483006C290D /* Account.storyboard */,
+				B448DA5A2630B4AE006C290D /* AccountViewController.swift */,
+			);
+			path = "Account Scene";
+			sourceTree = "<group>";
+		};
 		B44F814A260417BA0074EAF0 /* DirectionTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +180,9 @@
 		B4DB0D9D26028CBB003D2C54 /* BilliardsUSA */ = {
 			isa = PBXGroup;
 			children = (
+				B448DA4A2630B448006C290D /* Account Scene */,
+				B448DA492630B434006C290D /* Video Scene */,
+				B448DA482630B425006C290D /* Home Scene */,
 				B4DB0DE82602978A003D2C54 /* Mock Data */,
 				B4DB0DD42602916F003D2C54 /* Map Scene */,
 				B4DB0D9E26028CBB003D2C54 /* AppDelegate.swift */,
@@ -175,6 +222,7 @@
 				B4DB0DFE2602B2E5003D2C54 /* Pool Hall Annotation */,
 				B4DB0DE02602960C003D2C54 /* MapView.storyboard */,
 				B4DB0DD52602919B003D2C54 /* MapViewController.swift */,
+				B448DA692630B615006C290D /* Map.storyboard */,
 			);
 			path = "Map Scene";
 			sourceTree = "<group>";
@@ -301,11 +349,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B448DA4C2630B462006C290D /* Home.storyboard in Resources */,
 				B4DB0DAE26028CBB003D2C54 /* LaunchScreen.storyboard in Resources */,
 				B4DB0DAB26028CBB003D2C54 /* Assets.xcassets in Resources */,
 				B4DB0DEA260297F5003D2C54 /* Events.json in Resources */,
 				B4B1C82F26040DD1000BDE62 /* TripInfoView.xib in Resources */,
 				B4DB0DE12602960C003D2C54 /* MapView.storyboard in Resources */,
+				B448DA512630B47D006C290D /* Video.storyboard in Resources */,
+				B448DA6A2630B615006C290D /* Map.storyboard in Resources */,
+				B448DA562630B483006C290D /* Account.storyboard in Resources */,
 				B4DB0DA626028CBB003D2C54 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,6 +385,7 @@
 			files = (
 				B4DB0DA926028CBB003D2C54 /* BilliardsUSA.xcdatamodeld in Sources */,
 				B4B1C82926040D93000BDE62 /* TripInfoViewCardController.swift in Sources */,
+				B448DA602630B4E3006C290D /* VideoViewController.swift in Sources */,
 				B4DB0DF22602A80A003D2C54 /* PoolHallAnnotation.swift in Sources */,
 				B4DB0DFA2602B2DD003D2C54 /* PoolHallAnnotationView.swift in Sources */,
 				B4B1C8242603E58D000BDE62 /* CustomTapGesture.swift in Sources */,
@@ -340,7 +393,10 @@
 				B4DB0D9F26028CBB003D2C54 /* AppDelegate.swift in Sources */,
 				B4B1C81F2603CE44000BDE62 /* CustomLocationManager.swift in Sources */,
 				B4DB0DD62602919B003D2C54 /* MapViewController.swift in Sources */,
+				B448DA6F2630C476006C290D /* ImageCollectionViewCell.swift in Sources */,
 				B4DB0DA126028CBB003D2C54 /* SceneDelegate.swift in Sources */,
+				B448DA652630B4FA006C290D /* HomeViewController.swift in Sources */,
+				B448DA5B2630B4AE006C290D /* AccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
