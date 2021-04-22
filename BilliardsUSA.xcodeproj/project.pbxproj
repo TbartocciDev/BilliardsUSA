@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D317F84F5ED8A971AC87B70 /* Pods_BilliardsUSATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E132B6F41AEC845E96FAD05C /* Pods_BilliardsUSATests.framework */; };
+		1FF3D718673B199A4707076F /* Pods_BilliardsUSA_BilliardsUSAUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B85525AA5F2331D965B82A63 /* Pods_BilliardsUSA_BilliardsUSAUITests.framework */; };
+		375FC3456FE62E95D63DC87F /* Pods_BilliardsUSA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80027EC6540094596CB4E8D1 /* Pods_BilliardsUSA.framework */; };
 		B448DA4C2630B462006C290D /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B448DA4B2630B462006C290D /* Home.storyboard */; };
 		B448DA512630B47D006C290D /* Video.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B448DA502630B47D006C290D /* Video.storyboard */; };
 		B448DA562630B483006C290D /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B448DA552630B483006C290D /* Account.storyboard */; };
@@ -53,6 +56,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2216D7B682DCFCBE94B20FA9 /* Pods-BilliardsUSA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BilliardsUSA.debug.xcconfig"; path = "Target Support Files/Pods-BilliardsUSA/Pods-BilliardsUSA.debug.xcconfig"; sourceTree = "<group>"; };
+		2859BE421D8A8C77EF52E5C8 /* Pods-BilliardsUSA-BilliardsUSAUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BilliardsUSA-BilliardsUSAUITests.release.xcconfig"; path = "Target Support Files/Pods-BilliardsUSA-BilliardsUSAUITests/Pods-BilliardsUSA-BilliardsUSAUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5CC3BA25F9B0FC02918AB4DE /* Pods-BilliardsUSATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BilliardsUSATests.release.xcconfig"; path = "Target Support Files/Pods-BilliardsUSATests/Pods-BilliardsUSATests.release.xcconfig"; sourceTree = "<group>"; };
+		80027EC6540094596CB4E8D1 /* Pods_BilliardsUSA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BilliardsUSA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F3684FECEEF2BE1EBF8412 /* Pods-BilliardsUSA-BilliardsUSAUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BilliardsUSA-BilliardsUSAUITests.debug.xcconfig"; path = "Target Support Files/Pods-BilliardsUSA-BilliardsUSAUITests/Pods-BilliardsUSA-BilliardsUSAUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B448DA4B2630B462006C290D /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		B448DA502630B47D006C290D /* Video.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Video.storyboard; sourceTree = "<group>"; };
 		B448DA552630B483006C290D /* Account.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Account.storyboard; sourceTree = "<group>"; };
@@ -85,6 +93,10 @@
 		B4DB0DE9260297F5003D2C54 /* Events.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Events.json; sourceTree = "<group>"; };
 		B4DB0DF12602A80A003D2C54 /* PoolHallAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoolHallAnnotation.swift; sourceTree = "<group>"; };
 		B4DB0DF92602B2DD003D2C54 /* PoolHallAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoolHallAnnotationView.swift; sourceTree = "<group>"; };
+		B85525AA5F2331D965B82A63 /* Pods_BilliardsUSA_BilliardsUSAUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BilliardsUSA_BilliardsUSAUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9543A6E0AA7F7FFCB9B8169 /* Pods-BilliardsUSATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BilliardsUSATests.debug.xcconfig"; path = "Target Support Files/Pods-BilliardsUSATests/Pods-BilliardsUSATests.debug.xcconfig"; sourceTree = "<group>"; };
+		DED7FEA2ABA45CD7485C997D /* Pods-BilliardsUSA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BilliardsUSA.release.xcconfig"; path = "Target Support Files/Pods-BilliardsUSA/Pods-BilliardsUSA.release.xcconfig"; sourceTree = "<group>"; };
+		E132B6F41AEC845E96FAD05C /* Pods_BilliardsUSATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BilliardsUSATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				375FC3456FE62E95D63DC87F /* Pods_BilliardsUSA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D317F84F5ED8A971AC87B70 /* Pods_BilliardsUSATests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,12 +120,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FF3D718673B199A4707076F /* Pods_BilliardsUSA_BilliardsUSAUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8171120FCCDD495EDEB7E8E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2216D7B682DCFCBE94B20FA9 /* Pods-BilliardsUSA.debug.xcconfig */,
+				DED7FEA2ABA45CD7485C997D /* Pods-BilliardsUSA.release.xcconfig */,
+				98F3684FECEEF2BE1EBF8412 /* Pods-BilliardsUSA-BilliardsUSAUITests.debug.xcconfig */,
+				2859BE421D8A8C77EF52E5C8 /* Pods-BilliardsUSA-BilliardsUSAUITests.release.xcconfig */,
+				C9543A6E0AA7F7FFCB9B8169 /* Pods-BilliardsUSATests.debug.xcconfig */,
+				5CC3BA25F9B0FC02918AB4DE /* Pods-BilliardsUSATests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A5CBF1D02D9B5408BA770C59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80027EC6540094596CB4E8D1 /* Pods_BilliardsUSA.framework */,
+				B85525AA5F2331D965B82A63 /* Pods_BilliardsUSA_BilliardsUSAUITests.framework */,
+				E132B6F41AEC845E96FAD05C /* Pods_BilliardsUSATests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B448DA482630B425006C290D /* Home Scene */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +203,8 @@
 				B4DB0DB726028CBC003D2C54 /* BilliardsUSATests */,
 				B4DB0DC226028CBC003D2C54 /* BilliardsUSAUITests */,
 				B4DB0D9C26028CBB003D2C54 /* Products */,
+				8171120FCCDD495EDEB7E8E9 /* Pods */,
+				A5CBF1D02D9B5408BA770C59 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -253,9 +294,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4DB0DC826028CBC003D2C54 /* Build configuration list for PBXNativeTarget "BilliardsUSA" */;
 			buildPhases = (
+				851DC1F057A1B43A5F7A6005 /* [CP] Check Pods Manifest.lock */,
 				B4DB0D9726028CBB003D2C54 /* Sources */,
 				B4DB0D9826028CBB003D2C54 /* Frameworks */,
 				B4DB0D9926028CBB003D2C54 /* Resources */,
+				952C2260606CDFF71C9A6457 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -270,6 +313,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4DB0DCB26028CBC003D2C54 /* Build configuration list for PBXNativeTarget "BilliardsUSATests" */;
 			buildPhases = (
+				AF5BB26BA7B69B0E26BB6517 /* [CP] Check Pods Manifest.lock */,
 				B4DB0DB026028CBC003D2C54 /* Sources */,
 				B4DB0DB126028CBC003D2C54 /* Frameworks */,
 				B4DB0DB226028CBC003D2C54 /* Resources */,
@@ -288,9 +332,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4DB0DCE26028CBC003D2C54 /* Build configuration list for PBXNativeTarget "BilliardsUSAUITests" */;
 			buildPhases = (
+				50F6093965B8D6AF5B5A05A4 /* [CP] Check Pods Manifest.lock */,
 				B4DB0DBB26028CBC003D2C54 /* Sources */,
 				B4DB0DBC26028CBC003D2C54 /* Frameworks */,
 				B4DB0DBD26028CBC003D2C54 /* Resources */,
+				84BEE07AC95DA932B07BE68F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -377,6 +423,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50F6093965B8D6AF5B5A05A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BilliardsUSA-BilliardsUSAUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84BEE07AC95DA932B07BE68F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BilliardsUSA-BilliardsUSAUITests/Pods-BilliardsUSA-BilliardsUSAUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BilliardsUSA-BilliardsUSAUITests/Pods-BilliardsUSA-BilliardsUSAUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BilliardsUSA-BilliardsUSAUITests/Pods-BilliardsUSA-BilliardsUSAUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		851DC1F057A1B43A5F7A6005 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BilliardsUSA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		952C2260606CDFF71C9A6457 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BilliardsUSA/Pods-BilliardsUSA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BilliardsUSA/Pods-BilliardsUSA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BilliardsUSA/Pods-BilliardsUSA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF5BB26BA7B69B0E26BB6517 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BilliardsUSATests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B4DB0D9726028CBB003D2C54 /* Sources */ = {
@@ -569,6 +718,7 @@
 		};
 		B4DB0DC926028CBC003D2C54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2216D7B682DCFCBE94B20FA9 /* Pods-BilliardsUSA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -587,6 +737,7 @@
 		};
 		B4DB0DCA26028CBC003D2C54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DED7FEA2ABA45CD7485C997D /* Pods-BilliardsUSA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -605,6 +756,7 @@
 		};
 		B4DB0DCC26028CBC003D2C54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9543A6E0AA7F7FFCB9B8169 /* Pods-BilliardsUSATests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -626,6 +778,7 @@
 		};
 		B4DB0DCD26028CBC003D2C54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CC3BA25F9B0FC02918AB4DE /* Pods-BilliardsUSATests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -647,6 +800,7 @@
 		};
 		B4DB0DCF26028CBC003D2C54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98F3684FECEEF2BE1EBF8412 /* Pods-BilliardsUSA-BilliardsUSAUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -666,6 +820,7 @@
 		};
 		B4DB0DD026028CBC003D2C54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2859BE421D8A8C77EF52E5C8 /* Pods-BilliardsUSA-BilliardsUSAUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
