@@ -9,16 +9,18 @@ import UIKit
 import youtube_ios_player_helper
 
 class VideoViewController: UIViewController {
-    @IBOutlet weak var firstVideo: YTPlayerView!
+//    @IBOutlet weak var firstVideo: YTPlayerView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+//        setVideos()
     }
     
     
     func setVideos() {
-        firstVideo.load(withVideoId: <#T##String#>)
+//        firstVideo.load(withVideoId: "u3xLO6Et8TM")
+        
+        
     }
     
     

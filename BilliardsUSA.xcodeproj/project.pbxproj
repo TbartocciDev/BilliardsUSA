@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,11 +17,11 @@
 		B448DA602630B4E3006C290D /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B448DA5F2630B4E3006C290D /* VideoViewController.swift */; };
 		B448DA652630B4FA006C290D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B448DA642630B4FA006C290D /* HomeViewController.swift */; };
 		B448DA6A2630B615006C290D /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B448DA692630B615006C290D /* Map.storyboard */; };
-		B448DA6F2630C476006C290D /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B448DA6E2630C476006C290D /* ImageCollectionViewCell.swift */; };
 		B4B1C81F2603CE44000BDE62 /* CustomLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B1C81E2603CE44000BDE62 /* CustomLocationManager.swift */; };
 		B4B1C8242603E58D000BDE62 /* CustomTapGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B1C8232603E58D000BDE62 /* CustomTapGesture.swift */; };
 		B4B1C82926040D93000BDE62 /* TripInfoViewCardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B1C82826040D93000BDE62 /* TripInfoViewCardController.swift */; };
 		B4B1C82F26040DD1000BDE62 /* TripInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4B1C82E26040DD1000BDE62 /* TripInfoView.xib */; };
+		B4C2BE3B263214CC00DF1B19 /* YTVideoSectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C2BE3A263214CC00DF1B19 /* YTVideoSectionTableViewCell.swift */; };
 		B4DB0D9F26028CBB003D2C54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB0D9E26028CBB003D2C54 /* AppDelegate.swift */; };
 		B4DB0DA126028CBB003D2C54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB0DA026028CBB003D2C54 /* SceneDelegate.swift */; };
 		B4DB0DA326028CBB003D2C54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB0DA226028CBB003D2C54 /* ViewController.swift */; };
@@ -68,11 +68,11 @@
 		B448DA5F2630B4E3006C290D /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		B448DA642630B4FA006C290D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B448DA692630B615006C290D /* Map.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
-		B448DA6E2630C476006C290D /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		B4B1C81E2603CE44000BDE62 /* CustomLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLocationManager.swift; sourceTree = "<group>"; };
 		B4B1C8232603E58D000BDE62 /* CustomTapGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTapGesture.swift; sourceTree = "<group>"; };
 		B4B1C82826040D93000BDE62 /* TripInfoViewCardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripInfoViewCardController.swift; sourceTree = "<group>"; };
 		B4B1C82E26040DD1000BDE62 /* TripInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TripInfoView.xib; sourceTree = "<group>"; };
+		B4C2BE3A263214CC00DF1B19 /* YTVideoSectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTVideoSectionTableViewCell.swift; sourceTree = "<group>"; };
 		B4DB0D9B26028CBB003D2C54 /* BilliardsUSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BilliardsUSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DB0D9E26028CBB003D2C54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4DB0DA026028CBB003D2C54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -137,7 +137,6 @@
 				C9543A6E0AA7F7FFCB9B8169 /* Pods-BilliardsUSATests.debug.xcconfig */,
 				5CC3BA25F9B0FC02918AB4DE /* Pods-BilliardsUSATests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -156,7 +155,6 @@
 			children = (
 				B448DA4B2630B462006C290D /* Home.storyboard */,
 				B448DA642630B4FA006C290D /* HomeViewController.swift */,
-				B448DA6E2630C476006C290D /* ImageCollectionViewCell.swift */,
 			);
 			path = "Home Scene";
 			sourceTree = "<group>";
@@ -166,6 +164,7 @@
 			children = (
 				B448DA502630B47D006C290D /* Video.storyboard */,
 				B448DA5F2630B4E3006C290D /* VideoViewController.swift */,
+				B4C2BE3A263214CC00DF1B19 /* YTVideoSectionTableViewCell.swift */,
 			);
 			path = "Video Scene";
 			sourceTree = "<group>";
@@ -542,7 +541,7 @@
 				B4DB0D9F26028CBB003D2C54 /* AppDelegate.swift in Sources */,
 				B4B1C81F2603CE44000BDE62 /* CustomLocationManager.swift in Sources */,
 				B4DB0DD62602919B003D2C54 /* MapViewController.swift in Sources */,
-				B448DA6F2630C476006C290D /* ImageCollectionViewCell.swift in Sources */,
+				B4C2BE3B263214CC00DF1B19 /* YTVideoSectionTableViewCell.swift in Sources */,
 				B4DB0DA126028CBB003D2C54 /* SceneDelegate.swift in Sources */,
 				B448DA652630B4FA006C290D /* HomeViewController.swift in Sources */,
 				B448DA5B2630B4AE006C290D /* AccountViewController.swift in Sources */,
