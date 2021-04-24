@@ -7,8 +7,7 @@
 
 import Foundation
 
-{
-    "Search": [
+[
         {
             "Name" : "Mock Event Name 1",
             "Organizer": {
@@ -93,7 +92,5 @@ import Foundation
             "RuleSet": "APA rules",
             "Notes": "This is not a very serious tournament. People come to have a good time, have a beer etc."
         }
-    ],
-    "totalResults": "5",
-    "Response": "True"
-}
+    ]
+

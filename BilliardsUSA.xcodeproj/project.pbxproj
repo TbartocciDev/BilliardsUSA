@@ -17,6 +17,13 @@
 		B448DA602630B4E3006C290D /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B448DA5F2630B4E3006C290D /* VideoViewController.swift */; };
 		B448DA652630B4FA006C290D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B448DA642630B4FA006C290D /* HomeViewController.swift */; };
 		B448DA6A2630B615006C290D /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B448DA692630B615006C290D /* Map.storyboard */; };
+		B458A884263317BE00685258 /* PoolHall.swift in Sources */ = {isa = PBXBuildFile; fileRef = B458A883263317BE00685258 /* PoolHall.swift */; };
+		B458A89C26332D8A00685258 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B458A89B26332D8A00685258 /* MapViewController.swift */; };
+		B458A8A626335BCB00685258 /* PoolHalls.json in Resources */ = {isa = PBXBuildFile; fileRef = B458A888263318C600685258 /* PoolHalls.json */; };
+		B458A8B12633676100685258 /* StateSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B458A8B02633676100685258 /* StateSearchTableViewCell.swift */; };
+		B458A8BB26336ACF00685258 /* StateSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B458A8BA26336ACF00685258 /* StateSearchViewController.swift */; };
+		B458A8CA26336D6500685258 /* PoolHalls.json in Resources */ = {isa = PBXBuildFile; fileRef = B458A888263318C600685258 /* PoolHalls.json */; };
+		B458A8CF2633871500685258 /* StateSearch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B458A8CE2633871500685258 /* StateSearch.storyboard */; };
 		B4B1C81F2603CE44000BDE62 /* CustomLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B1C81E2603CE44000BDE62 /* CustomLocationManager.swift */; };
 		B4B1C8242603E58D000BDE62 /* CustomTapGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B1C8232603E58D000BDE62 /* CustomTapGesture.swift */; };
 		B4B1C82926040D93000BDE62 /* TripInfoViewCardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B1C82826040D93000BDE62 /* TripInfoViewCardController.swift */; };
@@ -31,11 +38,8 @@
 		B4DB0DAE26028CBB003D2C54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4DB0DAC26028CBB003D2C54 /* LaunchScreen.storyboard */; };
 		B4DB0DB926028CBC003D2C54 /* BilliardsUSATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB0DB826028CBC003D2C54 /* BilliardsUSATests.swift */; };
 		B4DB0DC426028CBC003D2C54 /* BilliardsUSAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB0DC326028CBC003D2C54 /* BilliardsUSAUITests.swift */; };
-		B4DB0DD62602919B003D2C54 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB0DD52602919B003D2C54 /* MapViewController.swift */; };
-		B4DB0DE12602960C003D2C54 /* MapView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4DB0DE02602960C003D2C54 /* MapView.storyboard */; };
 		B4DB0DEA260297F5003D2C54 /* Events.json in Resources */ = {isa = PBXBuildFile; fileRef = B4DB0DE9260297F5003D2C54 /* Events.json */; };
 		B4DB0DF22602A80A003D2C54 /* PoolHallAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB0DF12602A80A003D2C54 /* PoolHallAnnotation.swift */; };
-		B4DB0DFA2602B2DD003D2C54 /* PoolHallAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB0DF92602B2DD003D2C54 /* PoolHallAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +72,12 @@
 		B448DA5F2630B4E3006C290D /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		B448DA642630B4FA006C290D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B448DA692630B615006C290D /* Map.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
+		B458A883263317BE00685258 /* PoolHall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoolHall.swift; sourceTree = "<group>"; };
+		B458A888263318C600685258 /* PoolHalls.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PoolHalls.json; sourceTree = "<group>"; };
+		B458A89B26332D8A00685258 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		B458A8B02633676100685258 /* StateSearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateSearchTableViewCell.swift; sourceTree = "<group>"; };
+		B458A8BA26336ACF00685258 /* StateSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateSearchViewController.swift; sourceTree = "<group>"; };
+		B458A8CE2633871500685258 /* StateSearch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StateSearch.storyboard; sourceTree = "<group>"; };
 		B4B1C81E2603CE44000BDE62 /* CustomLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLocationManager.swift; sourceTree = "<group>"; };
 		B4B1C8232603E58D000BDE62 /* CustomTapGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTapGesture.swift; sourceTree = "<group>"; };
 		B4B1C82826040D93000BDE62 /* TripInfoViewCardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripInfoViewCardController.swift; sourceTree = "<group>"; };
@@ -88,11 +98,8 @@
 		B4DB0DBF26028CBC003D2C54 /* BilliardsUSAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BilliardsUSAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DB0DC326028CBC003D2C54 /* BilliardsUSAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BilliardsUSAUITests.swift; sourceTree = "<group>"; };
 		B4DB0DC526028CBC003D2C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4DB0DD52602919B003D2C54 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		B4DB0DE02602960C003D2C54 /* MapView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapView.storyboard; sourceTree = "<group>"; };
 		B4DB0DE9260297F5003D2C54 /* Events.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Events.json; sourceTree = "<group>"; };
 		B4DB0DF12602A80A003D2C54 /* PoolHallAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoolHallAnnotation.swift; sourceTree = "<group>"; };
-		B4DB0DF92602B2DD003D2C54 /* PoolHallAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoolHallAnnotationView.swift; sourceTree = "<group>"; };
 		B85525AA5F2331D965B82A63 /* Pods_BilliardsUSA_BilliardsUSAUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BilliardsUSA_BilliardsUSAUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9543A6E0AA7F7FFCB9B8169 /* Pods-BilliardsUSATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BilliardsUSATests.debug.xcconfig"; path = "Target Support Files/Pods-BilliardsUSATests/Pods-BilliardsUSATests.debug.xcconfig"; sourceTree = "<group>"; };
 		DED7FEA2ABA45CD7485C997D /* Pods-BilliardsUSA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BilliardsUSA.release.xcconfig"; path = "Target Support Files/Pods-BilliardsUSA/Pods-BilliardsUSA.release.xcconfig"; sourceTree = "<group>"; };
@@ -185,6 +192,24 @@
 			path = DirectionTableViewCell;
 			sourceTree = "<group>";
 		};
+		B458A8B826336A9500685258 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				B458A89B26332D8A00685258 /* MapViewController.swift */,
+				B448DA692630B615006C290D /* Map.storyboard */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		B458A8B926336AA800685258 /* State Search Scene */ = {
+			isa = PBXGroup;
+			children = (
+				B458A8BA26336ACF00685258 /* StateSearchViewController.swift */,
+				B458A8CE2633871500685258 /* StateSearch.storyboard */,
+			);
+			path = "State Search Scene";
+			sourceTree = "<group>";
+		};
 		B4B1C82D26040DBA000BDE62 /* TripInfo */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +266,8 @@
 			isa = PBXGroup;
 			children = (
 				B4DB0DB826028CBC003D2C54 /* BilliardsUSATests.swift */,
+				B458A888263318C600685258 /* PoolHalls.json */,
+				B4DB0DE9260297F5003D2C54 /* Events.json */,
 				B4DB0DBA26028CBC003D2C54 /* Info.plist */,
 			);
 			path = BilliardsUSATests;
@@ -258,11 +285,12 @@
 		B4DB0DD42602916F003D2C54 /* Map Scene */ = {
 			isa = PBXGroup;
 			children = (
+				B458A8B926336AA800685258 /* State Search Scene */,
+				B458A8B826336A9500685258 /* Map */,
 				B4B1C82D26040DBA000BDE62 /* TripInfo */,
 				B4DB0DFE2602B2E5003D2C54 /* Pool Hall Annotation */,
-				B4DB0DE02602960C003D2C54 /* MapView.storyboard */,
-				B4DB0DD52602919B003D2C54 /* MapViewController.swift */,
-				B448DA692630B615006C290D /* Map.storyboard */,
+				B458A8B02633676100685258 /* StateSearchTableViewCell.swift */,
+				B458A883263317BE00685258 /* PoolHall.swift */,
 			);
 			path = "Map Scene";
 			sourceTree = "<group>";
@@ -270,7 +298,6 @@
 		B4DB0DE82602978A003D2C54 /* Mock Data */ = {
 			isa = PBXGroup;
 			children = (
-				B4DB0DE9260297F5003D2C54 /* Events.json */,
 			);
 			path = "Mock Data";
 			sourceTree = "<group>";
@@ -279,7 +306,6 @@
 			isa = PBXGroup;
 			children = (
 				B4DB0DF12602A80A003D2C54 /* PoolHallAnnotation.swift */,
-				B4DB0DF92602B2DD003D2C54 /* PoolHallAnnotationView.swift */,
 				B4B1C81E2603CE44000BDE62 /* CustomLocationManager.swift */,
 				B4B1C8232603E58D000BDE62 /* CustomTapGesture.swift */,
 			);
@@ -396,10 +422,11 @@
 			files = (
 				B448DA4C2630B462006C290D /* Home.storyboard in Resources */,
 				B4DB0DAE26028CBB003D2C54 /* LaunchScreen.storyboard in Resources */,
+				B458A8CF2633871500685258 /* StateSearch.storyboard in Resources */,
+				B458A8CA26336D6500685258 /* PoolHalls.json in Resources */,
 				B4DB0DAB26028CBB003D2C54 /* Assets.xcassets in Resources */,
 				B4DB0DEA260297F5003D2C54 /* Events.json in Resources */,
 				B4B1C82F26040DD1000BDE62 /* TripInfoView.xib in Resources */,
-				B4DB0DE12602960C003D2C54 /* MapView.storyboard in Resources */,
 				B448DA512630B47D006C290D /* Video.storyboard in Resources */,
 				B448DA6A2630B615006C290D /* Map.storyboard in Resources */,
 				B448DA562630B483006C290D /* Account.storyboard in Resources */,
@@ -411,6 +438,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B458A8A626335BCB00685258 /* PoolHalls.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,18 +559,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B458A8BB26336ACF00685258 /* StateSearchViewController.swift in Sources */,
 				B4DB0DA926028CBB003D2C54 /* BilliardsUSA.xcdatamodeld in Sources */,
 				B4B1C82926040D93000BDE62 /* TripInfoViewCardController.swift in Sources */,
 				B448DA602630B4E3006C290D /* VideoViewController.swift in Sources */,
+				B458A8B12633676100685258 /* StateSearchTableViewCell.swift in Sources */,
 				B4DB0DF22602A80A003D2C54 /* PoolHallAnnotation.swift in Sources */,
-				B4DB0DFA2602B2DD003D2C54 /* PoolHallAnnotationView.swift in Sources */,
 				B4B1C8242603E58D000BDE62 /* CustomTapGesture.swift in Sources */,
 				B4DB0DA326028CBB003D2C54 /* ViewController.swift in Sources */,
 				B4DB0D9F26028CBB003D2C54 /* AppDelegate.swift in Sources */,
 				B4B1C81F2603CE44000BDE62 /* CustomLocationManager.swift in Sources */,
-				B4DB0DD62602919B003D2C54 /* MapViewController.swift in Sources */,
 				B4C2BE3B263214CC00DF1B19 /* YTVideoSectionTableViewCell.swift in Sources */,
 				B4DB0DA126028CBB003D2C54 /* SceneDelegate.swift in Sources */,
+				B458A89C26332D8A00685258 /* MapViewController.swift in Sources */,
+				B458A884263317BE00685258 /* PoolHall.swift in Sources */,
 				B448DA652630B4FA006C290D /* HomeViewController.swift in Sources */,
 				B448DA5B2630B4AE006C290D /* AccountViewController.swift in Sources */,
 			);
