@@ -34,10 +34,7 @@ class HomeViewController: UIViewController {
         view.addSubview(pageControl)
         view.addSubview(scrollView)
         
-        timer = Timer.scheduledTimer(timeInterval: 4.0, target: self, selector: #selector(changeImage), userInfo: nil, repeats: true)
-        
-        
-        
+//        timer = Timer.scheduledTimer(timeInterval: 4.0, target: self, selector: #selector(changeImage), userInfo: nil, repeats: true)
     }
     
     @objc func

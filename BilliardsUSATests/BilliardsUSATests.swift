@@ -18,9 +18,19 @@ class BilliardsUSATests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testPoolHallParse() throws {
+        let bundle = Bundle(for: Self.self)
+        let url = try XCTUnwrap(bundle.url(forResource: "PoolHalls", withExtension: "json"))
+        let data = try Data(contentsOf: url)
+        
+        do {
+            let decoder = JSONDecoder()
+            let results = try decoder.decode(Search.self, from: data)
+            print("Successful parse \(results)")
+        } catch {
+            XCTFail("Failed to parse: \(error)")
+        }
+        
     }
 
     func testPerformanceExample() throws {

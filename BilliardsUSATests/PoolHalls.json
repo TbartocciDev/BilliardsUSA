@@ -1,0 +1,272 @@
+
+{
+    "search": [
+        
+        {   "name": "NewJersey",
+            "abrev": "NJ",
+            "centerLat": 40.1587,
+            "centerLong": -74.72711,
+            "stateZoom": 159000,
+            "stateScrollLat": 150000,
+            "stateScrollLong": 100000,
+            "poolhalls": [
+                {
+                    "name": "Black Diamond Billiards",
+                    "address": "1767 Rt. 22 West, Union, NJ 07083",
+                    "website": "https://blackdiamondbilliards.com",
+                    "phoneNum": "(848)-219-7832",
+                    "rating": "4.9",
+                    "location": {
+                        "lat": "40.69628930152243",
+                        "long": "-74.25630171378178"
+                    },
+                    "county": "somerset",
+                    "state": "New Jersey"
+                },
+                {
+                    "name": "Guys and Dolls Billiards",
+                    "address": "524 Washington Ave, Belleville, NJ 07109",
+                    "website": "https://m.facebook.com/Guys-Dolls-Billiards-111767242193731",
+                    "phoneNum": "(973)-759-6217",
+                    "rating": "4.4",
+                    "location": {
+                        "lat": "40.79858056344833",
+                        "long": "-74.14749245998183"
+                    },
+                    "county": "somerset",
+                    "state": "New Jersey"
+                },
+                {
+                    "name": "Break Away Entertainment",
+                    "address": "17 Minneakoning Rd, Flemington, NJ 08822",
+                    "website": "https://www.breakawaynj.com",
+                    "phoneNum": "(908)-968-3886 ",
+                    "rating": "4.7",
+                    "location": {
+                        "lat": "40.53146826937601",
+                        "long": "-74.85071584649751"
+                    },
+                    "county": "somerset",
+                    "state": "New Jersey"
+                }
+            ]
+        },
+        {   "name": "Pennsylvania",
+            "abrev": "PA",
+            "centerLat": 40.930240547312756,
+            "centerLong": -77.655822995948,
+            "stateZoom": 200000,
+            "stateScrollLat": 200000,
+            "stateScrollLong": 400000,
+            "poolhalls": [
+                {
+                    "name": "Black Diamond Billiards",
+                    "address": "1767 Rt. 22 West, Union, NJ 07083",
+                    "website": "https://blackdiamondbilliards.com",
+                    "phoneNum": "(848)-219-7832",
+                    "rating": "4.9",
+                    "location": {
+                        "lat": "40.69628930152243",
+                        "long": "-74.25630171378178"
+                    },
+                    "county": "somerset",
+                    "state": "New Jersey"
+                },
+                {
+                    "name": "Guys and Dolls Billiards",
+                    "address": "524 Washington Ave, Belleville, NJ 07109",
+                    "website": "https://m.facebook.com/Guys-Dolls-Billiards-111767242193731",
+                    "phoneNum": "(973)-759-6217",
+                    "rating": "4.4",
+                    "location": {
+                        "lat": "40.79858056344833",
+                        "long": "-74.14749245998183"
+                    },
+                    "county": "somerset",
+                    "state": "New Jersey"
+                },
+                {
+                    "name": "Break Away Entertainment",
+                    "address": "17 Minneakoning Rd, Flemington, NJ 08822",
+                    "website": "https://www.breakawaynj.com",
+                    "phoneNum": "(908)-968-3886 ",
+                    "rating": "4.7",
+                    "location": {
+                        "lat": "40.53146826937601",
+                        "long": "-74.85071584649751"
+                    },
+                    "county": "somerset",
+                    "state": "New Jersey"
+                },
+                {
+                    "name": "Black Diamond Billiards",
+                    "address": "1767 Rt. 22 West, Union, NJ 07083",
+                    "website": "https://blackdiamondbilliards.com",
+                    "phoneNum": "(848)-219-7832",
+                    "rating": "4.9",
+                    "location": {
+                        "lat": "40.69628930152243",
+                        "long": "-74.25630171378178"
+                    },
+                    "county": "somerset",
+                    "state": "New Jersey"
+                },
+                {
+                    "name": "Guys and Dolls Billiards",
+                    "address": "524 Washington Ave, Belleville, NJ 07109",
+                    "website": "https://m.facebook.com/Guys-Dolls-Billiards-111767242193731",
+                    "phoneNum": "(973)-759-6217",
+                    "rating": "4.4",
+                    "location": {
+                        "lat": "40.79858056344833",
+                        "long": "-74.14749245998183"
+                    },
+                    "county": "somerset",
+                    "state": "New Jersey"
+                },
+                {
+                    "name": "Break Away Entertainment",
+                    "address": "17 Minneakoning Rd, Flemington, NJ 08822",
+                    "website": "https://www.breakawaynj.com",
+                    "phoneNum": "(908)-968-3886 ",
+                    "rating": "4.7",
+                    "location": {
+                        "lat": "40.53146826937601",
+                        "long": "-74.85071584649751"
+                    },
+                    "county": "somerset",
+                    "state": "New Jersey"
+                }
+            ]
+            
+        },
+        {   "name": "Texas",
+            "abrev": "TX",
+            "centerLat": 31.545435327299316,
+            "centerLong": -99.97873711857305,
+            "stateZoom": 850000,
+            "stateScrollLat": 200000,
+            "stateScrollLong": 450000,
+            "poolhalls": [
+                {
+                    "name": "Black Diamond Billiards",
+                    "address": "1767 Rt. 22 West, Union, NJ 07083",
+                    "website": "https://blackdiamondbilliards.com",
+                    "phoneNum": "(848)-219-7832",
+                    "rating": "4.9",
+                    "location": {
+                        "lat": "40.69628930152243",
+                        "long": "-74.25630171378178"
+                    },
+                    "county": "somerset",
+                    "state": "New Jersey"
+                },
+                {
+                    "name": "Guys and Dolls Billiards",
+                    "address": "524 Washington Ave, Belleville, NJ 07109",
+                    "website": "https://m.facebook.com/Guys-Dolls-Billiards-111767242193731",
+                    "phoneNum": "(973)-759-6217",
+                    "rating": "4.4",
+                    "location": {
+                        "lat": "40.79858056344833",
+                        "long": "-74.14749245998183"
+                    },
+                    "county": "somerset",
+                    "state": "New Jersey"
+                },
+                {
+                    "name": "Break Away Entertainment",
+                    "address": "17 Minneakoning Rd, Flemington, NJ 08822",
+                    "website": "https://www.breakawaynj.com",
+                    "phoneNum": "(908)-968-3886 ",
+                    "rating": "4.7",
+                    "location": {
+                        "lat": "40.53146826937601",
+                        "long": "-74.85071584649751"
+                    },
+                    "county": "somerset",
+                    "state": "New Jersey"
+                },
+                {
+                    "name": "Black Diamond Billiards",
+                    "address": "1767 Rt. 22 West, Union, NJ 07083",
+                    "website": "https://blackdiamondbilliards.com",
+                    "phoneNum": "(848)-219-7832",
+                    "rating": "4.9",
+                    "location": {
+                        "lat": "40.69628930152243",
+                        "long": "-74.25630171378178"
+                    },
+                    "county": "somerset",
+                    "state": "New Jersey"
+                },
+                {
+                    "name": "Guys and Dolls Billiards",
+                    "address": "524 Washington Ave, Belleville, NJ 07109",
+                    "website": "https://m.facebook.com/Guys-Dolls-Billiards-111767242193731",
+                    "phoneNum": "(973)-759-6217",
+                    "rating": "4.4",
+                    "location": {
+                        "lat": "40.79858056344833",
+                        "long": "-74.14749245998183"
+                    },
+                    "county": "somerset",
+                    "state": "New Jersey"
+                },
+                {
+                    "name": "Break Away Entertainment",
+                    "address": "17 Minneakoning Rd, Flemington, NJ 08822",
+                    "website": "https://www.breakawaynj.com",
+                    "phoneNum": "(908)-968-3886 ",
+                    "rating": "4.7",
+                    "location": {
+                        "lat": "40.53146826937601",
+                        "long": "-74.85071584649751"
+                    },
+                    "county": "somerset",
+                    "state": "New Jersey"
+                },
+                {
+                    "name": "Black Diamond Billiards",
+                    "address": "1767 Rt. 22 West, Union, NJ 07083",
+                    "website": "https://blackdiamondbilliards.com",
+                    "phoneNum": "(848)-219-7832",
+                    "rating": "4.9",
+                    "location": {
+                        "lat": "40.69628930152243",
+                        "long": "-74.25630171378178"
+                    },
+                    "county": "somerset",
+                    "state": "New Jersey"
+                },
+                {
+                    "name": "Guys and Dolls Billiards",
+                    "address": "524 Washington Ave, Belleville, NJ 07109",
+                    "website": "https://m.facebook.com/Guys-Dolls-Billiards-111767242193731",
+                    "phoneNum": "(973)-759-6217",
+                    "rating": "4.4",
+                    "location": {
+                        "lat": "40.79858056344833",
+                        "long": "-74.14749245998183"
+                    },
+                    "county": "somerset",
+                    "state": "New Jersey"
+                },
+                {
+                    "name": "Break Away Entertainment",
+                    "address": "17 Minneakoning Rd, Flemington, NJ 08822",
+                    "website": "https://www.breakawaynj.com",
+                    "phoneNum": "(908)-968-3886 ",
+                    "rating": "4.7",
+                    "location": {
+                        "lat": "40.53146826937601",
+                        "long": "-74.85071584649751"
+                    },
+                    "county": "somerset",
+                    "state": "New Jersey"
+                }
+            ]
+            
+        }
+    ]
+}
